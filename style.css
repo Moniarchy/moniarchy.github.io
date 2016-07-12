@@ -1,0 +1,17 @@
+#navigation {
+    color: #F2DCE8;
+    border: 5px solid #F2DCE8;
+    list-style-type: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    }
+body {
+    background-color: #CD88AF;
+    color: #F2DCE8;
+}
+li {
+    display: inline;
+    margin: 30px;
+    
+}

@@ -1,17 +1,26 @@
 #navigation {
     color: #F2DCE8;
-    border: 5px solid #F2DCE8;
     list-style-type: none;
     font-size: 15px;
     margin: 0;
     padding: 0;
+    background-color: #AE5889;
+    display: block;
+    text-align: center;
+    
     }
 body {
-    background-color: #CD88AF;
+    background-color: #892E61;
     color: #F2DCE8;
+    font-family: Arial, sans-serif;
 }
 li {
-    display: inline;
+    display: inline-block;
     margin: 30px;
+    color: #F2DCE8;
+    font-family: Helvetica, sans-serif;
     
+}
+li a:hover {
+    background-color: #E1B4CD;
 }

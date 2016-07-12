@@ -1,22 +1,27 @@
 #navigation {
-    color: #F2DCE8;
+    color: #CD89AF;
     list-style-type: none;
     font-size: 16px;
-    background-color: #AE5889;
-    position: fixed; 
+    background-color: #450027;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
     
     }
 body {
     background-color: #892E61;
-    color: #F2DCE8;
-    font-family: Arial, sans-serif;
+    color: #CD89AF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navtabs {
     display: inline-block;
     margin: 30px;
-    color: #F2DCE8;
-    font-family: Helvetica, sans-serif;
-    font-size: 25px;
+    color: #CD89AF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
     
 }
 .navtabs a:hover {
@@ -32,11 +37,14 @@ body {
     text-align: center;
 }
 #picdiv {
-    padding-top: 250px;
+    padding-top: 200px;
+    text-align: center;
 }
 
 #welcome { 
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 64px;
+    text-align: center;
+    margin-top: 0px;
 }

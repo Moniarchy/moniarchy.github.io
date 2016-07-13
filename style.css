@@ -1,57 +1,27 @@
-body {
-    background-color: #892E61;
-    color: #CD89AF;
-    font-family: Arial, Helvetica, sans-serif;
-    min-width: 500px;
-}
-
-/* extra small */
-@media (max-width: 767px) {
-    body{
-        background-color: red;
-    }
-}
-
-/* small */
-@media (min-width: 768px) {
-    body{
-        background-color: orange;
-    }
-}
-
-/* medium */
-@media (min-width: 992px) {
-    body{
-        background-color: yellow;
-    }
-    #navigation {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0; 
-    }
-}
-
-/* large */
-@media (min-width: 1200px) {
-    body{
-        background-color: green;
-    }
-}
-
-
+html, body{
+    min-width: 435px;
+}   
 #navigation {
+    position: fixed;
     color: #CD89AF;
     list-style-type: none;
     font-size: 16px;
     background-color: #450027;
-    
+    top: 0;
+    left: 0;
+    right: 0;
     margin: 0;
-    
-    }
-
+    height: 80px;
+    text-align: center;
+    overflow: hidden;
+    transition: top 200ms;
+}
+body {
+    background-color: #892E61;
+    color: #CD89AF;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #navdiv {
-    
 }
 .navtabs {
     display: inline-block;
@@ -61,9 +31,6 @@ body {
     font-size: 20px;
     text-align: justify;
     
-}
-a:hover {
-    background-color: #E1B4CD;    
 }
 a {
     color: #CD89AF;
@@ -75,11 +42,10 @@ a {
     vertical-align: text-bottom;
     top: 50px;
     left: 450px;
-    border-radius: 200px;
+    border-radius: 100px;
     text-align: center;
 }
 #picdiv {
-    padding-top: 200px;
     text-align: center;
 }
 
@@ -90,3 +56,62 @@ a {
     text-align: center;
     margin-top: 0px;
 }
+#unfamiliarcitypicdiv {
+    
+}
+#unfamiliarcitypic {
+    width: 400px;
+    height: 300px;
+}
+#currentparagraph {
+    
+}
+#doneparagraph {
+    
+}
+#contactlist {
+    list-style-type: none;
+}
+
+.center-content{
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #navigation {
+        position: static;
+        height: auto;
+        margin: -8px;
+    }
+    #navigation {
+        height: auto;
+        padding-left: 0;
+    }
+    #navigation li {
+        display: block;
+        white-space: nowrap;
+    }
+    #picdiv {
+        padding-top: 50px;
+    }
+}
+@media (min-width: 768px) {
+    #picdiv {
+        padding-top: 100px;
+    }
+}
+@media (min-width: 992px) {
+    
+}
+@media (min-width: 1200px) {
+    #navigation {
+        top: -70px;
+    }
+    #navigation:hover {
+        top: 0;
+    }
+    #picdiv {
+        padding-top: 50px;
+    }
+}
+ 

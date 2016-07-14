@@ -73,7 +73,7 @@ img:hover {
     font-size: 30px;
     text-align: right;
     margin-top: -150px;
-    margin-bottom: 250px;
+    margin-bottom: 500px;
 }
 .heading{
     background-color: white;
@@ -83,7 +83,7 @@ img:hover {
     margin-bottom: 20px;
 }
 #unfamiliarcitypicdiv {
-    
+    text-align: center;
 }
 #unfamiliarcitypic {
     width: 400px;
@@ -96,7 +96,15 @@ img:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+}
+.item {
+    flex-basis: 50%;
+    text-align: center;
+}
+.current-project-pics {
+    width: 300px;
+    height: 300px;
 }
 #doneparagraph {
     

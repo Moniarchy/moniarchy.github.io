@@ -42,6 +42,8 @@ a {
 }
 img {
     opacity: .80;
+    border: 5px solid white;
+    border-radius: 50px;
 }
 img:hover {
     opacity: 1;
@@ -54,7 +56,7 @@ img:hover {
     left: 450px;
     border-radius: 75px;
     text-align: center;
-    border: 5px solid white;
+    
     
 }
 #picdiv {
@@ -82,15 +84,12 @@ img:hover {
     margin-right: -30px;
     margin-bottom: 20px;
 }
-#unfamiliarcitypicdiv {
+#lg-icon-div {
     text-align: center;
 }
 #unfamiliarcitypic {
     width: 400px;
     height: 300px;
-}
-#currentparagraph {
-    
 }
 .container {
     display: flex;

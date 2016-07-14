@@ -39,17 +39,25 @@ a {
     color: #334D60;
     text-decoration: none;
 }
+img {
+    opacity: .80;
+}
+img:hover {
+    opacity: 1;
+}
 #mypic {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     vertical-align: text-bottom;
     top: 50px;
     left: 450px;
-    border-radius: 100px;
+    border-radius: 75px;
     text-align: center;
+    border: 5px solid white;
+    
 }
 #picdiv {
-    text-align: center;
+    text-align: right;
 }
 
 #welcome { 
@@ -64,7 +72,7 @@ a {
     font-size: 30px;
     text-align: right;
     margin-top: -150px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 #unfamiliarcitypicdiv {
     

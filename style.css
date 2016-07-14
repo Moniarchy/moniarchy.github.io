@@ -3,10 +3,10 @@ html, body{
 }   
 #navigation {
     position: fixed;
-    color: #CD89AF;
+    color: red;
     list-style-type: none;
     font-size: 16px;
-    background-color: #450027;
+    background-color: ;
     top: 0;
     left: 0;
     right: 0;
@@ -17,8 +17,8 @@ html, body{
     transition: top 200ms;
 }
 body {
-    background-color: #892E61;
-    color: #CD89AF;
+    background-color: #7BABCA
+    color: #091219;
     font-family: Arial, Helvetica, sans-serif;
 }
 #navdiv {
@@ -26,14 +26,14 @@ body {
 .navtabs {
     display: inline-block;
     margin: 30px;
-    color: #CD89AF;
+    color: #4A5D2B;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
     
 }
 a {
-    color: #CD89AF;
+    color: #4A5D2B;
     text-decoration: none;
 }
 #mypic {
@@ -50,11 +50,17 @@ a {
 }
 
 #welcome { 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Galada, Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 64px;
-    text-align: center;
+    font-size: 128px;
+    text-align: right;
     margin-top: 0px;
+}
+.subheading{
+    font-family: Galada, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    margin-top: -150px;
 }
 #unfamiliarcitypicdiv {
     

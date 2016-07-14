@@ -14,7 +14,7 @@ html, body{
     height: 80px;
     text-align: center;
     overflow: hidden;
-    transition: top 200ms;
+    transition: top 2s;
 }
 body {
     background-color: #DDF0FE;

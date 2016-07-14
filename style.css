@@ -6,7 +6,7 @@ html, body{
     color: red;
     list-style-type: none;
     font-size: 16px;
-    background-color: #334D60;
+    background-color: #13212C;
     top: 0;
     left: 0;
     right: 0;
@@ -17,23 +17,26 @@ html, body{
     transition: top 200ms;
 }
 body {
-    background-color: #4E718A
+    background-color: #DDF0FE;
     color: #091219;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Slabo 27px, Arial, Helvetica, sans-serif;
 }
 #navdiv {
+    text-decoration: none;
 }
 .navtabs {
     display: inline-block;
     margin: 30px;
-    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
     
 }
+h2 {
+    font-family: Lora, Arial, Helvetica, sans-serif;
+}
 a {
-    color: black;
+    color: #334D60;
     text-decoration: none;
 }
 #mypic {
@@ -61,6 +64,7 @@ a {
     font-size: 30px;
     text-align: right;
     margin-top: -150px;
+    margin-bottom: 200px;
 }
 #unfamiliarcitypicdiv {
     
@@ -77,6 +81,10 @@ a {
 }
 #contactlist {
     list-style-type: none;
+}
+#email {
+    color: #091219;
+    text-decoration: none;
 }
 
 .center-content{
@@ -113,7 +121,7 @@ a {
     #navigation {
         top: -70px;
     }
-    #navigation:hover {
+    #navigation:hover, #navigation:active {
         top: 0;
     }
     #picdiv {

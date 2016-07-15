@@ -55,9 +55,7 @@ img:hover {
     top: 50px;
     left: 450px;
     border-radius: 75px;
-    text-align: center;
-    
-    
+    text-align: center;    
 }
 #picdiv {
     text-align: right;
@@ -89,6 +87,10 @@ img:hover {
 #lg-icon-div {
     text-align: center;
 }
+.older-project-pics {
+    width: 300px;
+    height: 300px;
+}
 
 .container {
     display: flex;
@@ -100,7 +102,7 @@ img:hover {
     flex-basis: 50%;
     text-align: center;
 }
-.current-project-pics {
+.current-project-pic {
     width: 300px;
     height: 300px;
 }

@@ -168,10 +168,61 @@ img:hover {
         height: 150px;
         width: 150px;
     }
+    .contact {
+        font-size: 14px;
+        text-align: center;
+    }
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) and (min-width: 768px) {
+     #navigation {
+        position: static;
+        height: auto;
+        margin: -8px;
+        padding-left: 0;
+    }
+    .navtabs {
+        margin-top: 2px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #navigation li {
+        display: block;
+        white-space: nowrap;  
+    }
     #picdiv {
-        padding-top: 100px;
+        padding-top: 200px;
+        text-align: center;
+    }
+    #welcome {
+        font-size: 70px;
+        text-align: center;
+    }
+    .heading {
+        text-align: center;
+    }
+    .subheading {
+        font-size: 30px;
+        text-align: center;
+        margin-top: -90px;
+        margin-bottom: 300px;
+    }
+    p {
+        font-size: 13px;
+    }
+    #current-project-pic {
+        height: 150px;
+        width: 150px;
+    }
+    .older-project-pics {
+        height: 150px;
+        width: 150px;
+    }
+    .contact {
+        font-size: 14px;
+    }
+    #contactlist {
+        text-align: center;
+    }
     }
 }
 @media (min-width: 992px) {

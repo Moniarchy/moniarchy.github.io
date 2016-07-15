@@ -89,10 +89,7 @@ img:hover {
 #lg-icon-div {
     text-align: center;
 }
-#unfamiliarcitypic {
-    width: 400px;
-    height: 300px;
-}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -121,10 +118,9 @@ img:hover {
 .center-content{
     text-align: center;
 }
-@media (min-width: 319px) and (max-width: 361px) {
     
-}
-    
+/* media queries beyond here*/
+
 @media (max-width: 767px) {
     #navigation {
         position: static;
@@ -136,9 +132,6 @@ img:hover {
         margin-top: 2px;
         margin-bottom: 10px;
         text-align: center;
-    }
-    #navdiv {
-        
     }
     #navigation li {
         display: block;
@@ -164,6 +157,14 @@ img:hover {
     }
     p {
         font-size: 12px;
+    }
+    #current-project-pic {
+        height: 150px;
+        width: 150px;
+    }
+    .older-project-pics {
+        height: 150px;
+        width: 150px;
     }
 }
 @media (min-width: 768px) {

@@ -1,24 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Galada');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 .App {
-  text-align: center;
+  background-color: #F7F4F3;
+  height: 800px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+a {
+  color: #474747;
+  font-family: "Oswald";
+  font-size: 96px;
+  text-decoration: none;
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.initial-navigation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 450px;
+  padding-top: 225px;
 }

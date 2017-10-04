@@ -6,7 +6,7 @@ import About from './components/About'
 import CurrentProject from './components/CurrentProject'
 import PastProjects from './components/PastProjects'
 import Contact from './components/Contact'
-import { HashRouter, Route, Link } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker'
 import './index.css'
 
